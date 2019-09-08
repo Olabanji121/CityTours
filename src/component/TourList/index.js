@@ -18,7 +18,7 @@ export default class TourList extends Component {
 		return (
 			<section className='tourList'>
 				{tours.map(tour => (
-					<Tour key={tour.id} tour={tour} romoveTour={this.removeTour}></Tour>
+					<Tour key={tour.id} tour={tour} removeTour={this.removeTour}></Tour>
 				))}
 			</section>
 		);
