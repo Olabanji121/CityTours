@@ -1,0 +1,39 @@
+@import '../../index.scss';
+
+.navbar{
+    background: $mainBlack;
+    padding: 20px 10px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+//  nav-links Ul
+.navbar ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    // justify-content: center;
+    
+}
+// links li
+.nav-link{
+    border: 0;
+    border-left: 0.1px;
+    border-style: solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    color: $mainGreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover{
+        color: $mainGrey
+    };
+    transition: all 0.3s linear
+
+}
+
+.active{
+    color:$mainWhite
+}
+
