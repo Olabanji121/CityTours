@@ -22,7 +22,7 @@ export default class Tour extends Component {
 			<article className='tour'>
 				<div className='img-container'>
 					<img src={img} alt='city tour' />
-					<span className='close-btn'>
+					<span className='close-btn' onClick={()=>removeTour(id)}>
 						<i className='fas fa-window-close' />
 					</span>
 				</div>
